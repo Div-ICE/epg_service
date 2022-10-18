@@ -13,12 +13,17 @@
 ##### Запуск проекта:
 
 `docker pull divice/epg_service:latest`
+
 `docker run --name epg_service -it -p 8000:8000 divice/epg_service`
 
 ##### Эндпоинты проекта:
 
 GET/POST
+
 `http://127.0.0.1:8000/`
+
 `http://127.0.0.1:8000/index`
+
 `http://127.0.0.1:8000/eval?phrase=`
+
 после равно подставить любое выражение вида **2*(3+7)/5 = 4**
